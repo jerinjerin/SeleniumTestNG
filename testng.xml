@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SeleniumTestNG">
+    <test name="testAmazonHomepage">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="AmazonTest"/>
+        </classes>
+    </test>
+</suite>
